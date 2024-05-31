@@ -122,7 +122,7 @@ button3UICorner.CornerRadius = UDim.new(0, 20)
 button3UICorner.Parent = button3
 
 button3.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet("https://path/to/your/third/script.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Hub-V5-Beta-/main/Script%20mode.lua"))()
 end)
 
 local userInputService = game:GetService("UserInputService")
