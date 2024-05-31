@@ -57,25 +57,40 @@ button4.MouseButton1Click:Connect(function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/Scriptmode/mode/Hardcore-but-bad"))()
 end)
 
-local button5 = Instance.new("TextButton")
-button5.Size = UDim2.new(0, 150, 0, 50)
-button5.Position = UDim2.new(0, 10, 1, -275) -- 设置按钮4位置在按钮2下面
-button5.Text = "Hardcore Original"
-button5.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
-button5.Parent = mainFrame
+local button7 = Instance.new("TextButton")
+button7.Size = UDim2.new(0, 150, 0, 50)
+button7.Position = UDim2.new(0, 10, 1, -275) -- 设置按钮4位置在按钮2下面
+button7.Text = "Hardcore Original"
+button7.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
+button7.Parent = mainFrame
 
 local button5UICorner = Instance.new("UICorner")
 button5UICorner.CornerRadius = UDim.new(0, 20)
-button5UICorner.Parent = button5
+button5UICorner.Parent = button7
 
-button5.MouseButton1Click:Connect(function()
+button7.MouseButton1Click:Connect(function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/JevilOhio/Doors-Hardcore-noonie-ver-/main/Doors%20Hardcore%20(noonie)"))()
+end)
+
+local button6 = Instance.new("TextButton")
+button6.Size = UDim2.new(0, 150, 0, 50)
+button6.Position = UDim2.new(0, 200, 1, -375) -- 设置按钮4位置在按钮2下面
+button6.Text = "Psychotic"
+button6.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
+button6.Parent = mainFrame
+
+local button6UICorner = Instance.new("UICorner")
+button6UICorner.CornerRadius = UDim.new(0, 20)
+button6UICorner.Parent = button6
+
+button6.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Psychotic-mode/main/0.lua"))()
 end)
 
 local button5 = Instance.new("TextButton")
 button5.Size = UDim2.new(0, 150, 0, 50)
-button5.Position = UDim2.new(0, 200, 1, 20) -- 设置按钮4位置在按钮2下面
-button5.Text = "Psychotic"
+button5.Position = UDim2.new(0, 200, 1, -325) -- 设置按钮4位置在按钮2下面
+button5.Text = "Hamor"
 button5.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
 button5.Parent = mainFrame
 
@@ -84,7 +99,22 @@ button5UICorner.CornerRadius = UDim.new(0, 20)
 button5UICorner.Parent = button5
 
 button5.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Psychotic-mode/main/0.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/Scriptmode/mode/Hamor"))()
+end)
+
+local button5 = Instance.new("TextButton")
+button5.Size = UDim2.new(0, 150, 0, 50)
+button5.Position = UDim2.new(0, 200, 1, -275) -- 设置按钮4位置在按钮2下面
+button5.Text = "Extreme"
+button5.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
+button5.Parent = mainFrame
+
+local button5UICorner = Instance.new("UICorner")
+button5UICorner.CornerRadius = UDim.new(0, 20)
+button5UICorner.Parent = button5
+
+button5.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/Scriptmode/main/Extreme"))()
 end)
 
 local button1b = Instance.new("TextButton")
@@ -125,3 +155,39 @@ textLabel.TextColor3 = Color3.fromRGB(255, 135, 150)
 textLabel.BackgroundTransparency = 1
 textLabel.Parent = mainFrame
 
+local userInputService = game:GetService("UserInputService")
+local dragging = false
+local dragInput
+local dragStart
+local startPos
+
+local function update(input)
+    local delta = input.Position - dragStart
+    mainFrame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+end
+
+mainFrame.InputBegan:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.Touch or input.UserInputType == Enum.UserInputType.MouseButton1 then
+        dragging = true
+        dragStart = input.Position
+        startPos = mainFrame.Position
+
+        input.Changed:Connect(function()
+            if input.UserInputState == Enum.UserInputState.End then
+                dragging = false
+            end
+        end)
+    end
+end)
+
+mainFrame.InputChanged:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.Touch or input.UserInputType == Enum.UserInputType.MouseMovement then
+        dragInput = input
+    end
+end)
+
+userInputService.InputChanged:Connect(function(input)
+    if dragging and input == dragInput then
+        update(input)
+    end
+end)
