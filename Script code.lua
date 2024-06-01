@@ -76,7 +76,7 @@ end)
 local button7 = Instance.new("TextButton")
 button7.Size = UDim2.new(0, 150, 0, 50)
 button7.Position = UDim2.new(0, 10, 1, -275) -- 设置按钮5位置在按钮4下面
-button7.Text = "Trauma Hub V3"
+button7.Text = "NN"
 button7.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
 button7.Parent = mainFrame
 
