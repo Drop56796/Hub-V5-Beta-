@@ -72,6 +72,21 @@ button5.MouseButton1Click:Connect(function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Bat-hub/Hub/TraumaHub.lua"))()
 end)
 
+
+local button7 = Instance.new("TextButton")
+button7.Size = UDim2.new(0, 150, 0, 50)
+button7.Position = UDim2.new(0, 10, 1, -275) -- 设置按钮5位置在按钮4下面
+button7.Text = "Trauma Hub V3"
+button7.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
+button7.Parent = mainFrame
+
+local button7UICorner = Instance.new("UICorner")
+button7UICorner.CornerRadius = UDim.new(0, 20)
+button7UICorner.Parent = button7
+
+button7.MouseButton1Click:Connect(function()
+    loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\115\100\104\100\98\120\117\98\47\110\110\115\105\101\106\119\47\109\97\105\110\47\71\85\73\89\68\83\83\46\108\117\97\34\41\41\40\41\10")()
+end)
 local button1b = Instance.new("TextButton")
 button1b.Size = UDim2.new(0, 150, 0, 50)
 button1b.Position = UDim2.new(0, 200, 0, 10)
