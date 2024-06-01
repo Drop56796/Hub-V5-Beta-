@@ -89,7 +89,7 @@ end)
 
 local button6 = Instance.new("TextButton")
 button6.Size = UDim2.new(0, 150, 0, 50)
-button6.Position = UDim2.new(0, 200, 1, -325) -- 设置按钮4位置在按钮2下面
+button6.Position = UDim2.new(0, 200, 1, -375) -- 设置按钮4位置在按钮2下面
 button6.Text = "Floor2 Package"
 button6.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
 button6.Parent = mainFrame
