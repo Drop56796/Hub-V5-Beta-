@@ -87,6 +87,21 @@ button1b.MouseButton1Click:Connect(function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Floor-2-candle-By-icherryKardess-/The-Floor-2-candle-(By-icherryKardess)/Floor2%20candle%20(The%20candle%20by%20icherrykardess).lua"))()
 end)
 
+local button6 = Instance.new("TextButton")
+button6.Size = UDim2.new(0, 150, 0, 50)
+button6.Position = UDim2.new(0, 200, 1, -325) -- 设置按钮4位置在按钮2下面
+button6.Text = "Floor2 Package"
+button6.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
+button6.Parent = mainFrame
+
+local button4UICorner = Instance.new("UICorner")
+button4UICorner.CornerRadius = UDim.new(0, 20)
+button4UICorner.Parent = button4
+
+button4.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iCherryKardes/Doors/main/Floor%202%20Mod"))()
+end)
+
 local closeButton = Instance.new("TextButton")
 closeButton.Size = UDim2.new(0, 50, 0, 50)
 closeButton.Position = UDim2.new(1, -60, 0, 10)
