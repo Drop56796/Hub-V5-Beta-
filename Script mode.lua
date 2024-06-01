@@ -117,6 +117,171 @@ button5.MouseButton1Click:Connect(function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/Scriptmode/main/Extreme"))()
 end)
 
+local button5 = Instance.new("TextButton")
+button5.Size = UDim2.new(0, 150, 0, 50)
+button5.Position = UDim2.new(0, 200, 1, -225) -- 设置按钮4位置在按钮2下面
+button5.Text = "Insane V5"
+button5.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
+button5.Parent = mainFrame
+
+local button5UICorner = Instance.new("UICorner")
+button5UICorner.CornerRadius = UDim.new(0, 20)
+button5UICorner.Parent = button5
+
+button5.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/thefigureblack/doors/main/insanemodev5.lua"))()
+end)
+
+local button5 = Instance.new("TextButton")
+button5.Size = UDim2.new(0, 150, 0, 50)
+button5.Position = UDim2.new(0, 200, 1, -175) -- 设置按钮4位置在按钮2下面
+button5.Text = "insane V6"
+button5.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
+button5.Parent = mainFrame
+
+local button5UICorner = Instance.new("UICorner")
+button5UICorner.CornerRadius = UDim.new(0, 20)
+button5UICorner.Parent = button5
+
+button5.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/InsaneV6/main/InsaneV6.lua"))()
+end)
+
+local button5 = Instance.new("TextButton")
+button5.Size = UDim2.new(0, 150, 0, 50)
+button5.Position = UDim2.new(0, 200, 1, -125) -- 设置按钮4位置在按钮2下面
+button5.Text = "impossible"
+button5.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
+button5.Parent = mainFrame
+
+local button5UICorner = Instance.new("UICorner")
+button5UICorner.CornerRadius = UDim.new(0, 20)
+button5UICorner.Parent = button5
+
+button5.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Ukazix/impossible-mode/main/Protected_79.lua.txt'))()
+end)
+
+local button5 = Instance.new("TextButton")
+button5.Size = UDim2.new(0, 150, 0, 50)
+button5.Position = UDim2.new(0, 400, 1, -425) -- 设置按钮4位置在按钮2下面
+button5.Text = "DevTroll"
+button5.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
+button5.Parent = mainFrame
+
+local button5UICorner = Instance.new("UICorner")
+button5UICorner.CornerRadius = UDim.new(0, 20)
+button5UICorner.Parent = button5
+
+button5.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://glot.io/snippets/gotfeffesc/raw/main.lua"))()
+end)
+
+local button5 = Instance.new("TextButton")
+button5.Size = UDim2.new(0, 150, 0, 50)
+button5.Position = UDim2.new(0, 400, 1, -375) -- 设置按钮4位置在按钮2下面
+button5.Text = "Fear"
+button5.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
+button5.Parent = mainFrame
+
+local button5UICorner = Instance.new("UICorner")
+button5UICorner.CornerRadius = UDim.new(0, 20)
+button5UICorner.Parent = button5
+
+button5.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/cool59572/freestuff/main/Mods/FearMode.lua"))
+end)
+
+local button5 = Instance.new("TextButton")
+button5.Size = UDim2.new(0, 150, 0, 50)
+button5.Position = UDim2.new(0, 400, 1, -325) -- 设置按钮4位置在按钮2下面
+button5.Text = "Hazy"
+button5.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
+button5.Parent = mainFrame
+
+local button5UICorner = Instance.new("UICorner")
+button5UICorner.CornerRadius = UDim.new(0, 20)
+button5UICorner.Parent = button5
+
+button5.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Jabiess-Hazy-Mode-/main/Hazy%20Mode.lua"))()
+end)
+
+local button5 = Instance.new("TextButton")
+button5.Size = UDim2.new(0, 150, 0, 50)
+button5.Position = UDim2.new(0, 400, 1, -275) -- 设置按钮4位置在按钮2下面
+button5.Text = "nightmare"
+button5.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
+button5.Parent = mainFrame
+
+local button5UICorner = Instance.new("UICorner")
+button5UICorner.CornerRadius = UDim.new(0, 20)
+button5UICorner.Parent = button5
+
+button5.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/nightmare/main/nightmare%20mode.lua"))()
+end)
+
+local button5 = Instance.new("TextButton")
+button5.Size = UDim2.new(0, 150, 0, 50)
+button5.Position = UDim2.new(0, 400, 1, -225) -- 设置按钮4位置在按钮2下面
+button5.Text = "Endless"
+button5.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
+button5.Parent = mainFrame
+
+local button5UICorner = Instance.new("UICorner")
+button5UICorner.CornerRadius = UDim.new(0, 20)
+button5UICorner.Parent = button5
+
+button5.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/Scriptmode/mode/Endless"))()
+End)
+
+local button5 = Instance.new("TextButton")
+button5.Size = UDim2.new(0, 150, 0, 50)
+button5.Position = UDim2.new(0, 400, 1, -175) -- 设置按钮4位置在按钮2下面
+button5.Text = "birthday"
+button5.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
+button5.Parent = mainFrame
+
+local button5UICorner = Instance.new("UICorner")
+button5UICorner.CornerRadius = UDim.new(0, 20)
+button5UICorner.Parent = button5
+
+button5.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/Scriptmode/mode/Birthday"))()
+end)
+
+local button5 = Instance.new("TextButton")
+button5.Size = UDim2.new(0, 150, 0, 50)
+button5.Position = UDim2.new(0, 400, 1, -125) -- 设置按钮4位置在按钮2下面
+button5.Text = "Furry (Gay)"
+button5.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
+button5.Parent = mainFrame
+
+local button5UICorner = Instance.new("UICorner")
+button5UICorner.CornerRadius = UDim.new(0, 20)
+button5UICorner.Parent = button5
+
+button5.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/Scriptmode/mode/Furry"))()
+end)
+
+local button5 = Instance.new("TextButton")
+button5.Size = UDim2.new(0, 150, 0, 50)
+button5.Position = UDim2.new(0, 600, 1, -375) -- 设置按钮4位置在按钮2下面
+button5.Text = "Cat(Gay)"
+button5.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
+button5.Parent = mainFrame
+
+local button5UICorner = Instance.new("UICorner")
+button5UICorner.CornerRadius = UDim.new(0, 20)
+button5UICorner.Parent = button5
+
+button5.MouseButton1Click:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/Scriptmode/mode/Cat"))()
+end)
+
 local button1b = Instance.new("TextButton")
 button1b.Size = UDim2.new(0, 150, 0, 50)
 button1b.Position = UDim2.new(0, 200, 0, 10)
