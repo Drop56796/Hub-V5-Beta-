@@ -16,6 +16,7 @@ local button1 = Instance.new("TextButton")
 button1.Size = UDim2.new(0, 150, 0, 50)
 button1.Position = UDim2.new(0, 10, 0, 10)
 button1.Text = "Trauma Hub V4"
+button1.Font = Enum.Font.Oswald
 button1.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
 button1.Parent = mainFrame
 
@@ -31,6 +32,7 @@ local button2 = Instance.new("TextButton")
 button2.Size = UDim2.new(0, 150, 0, 50)
 button2.Position = UDim2.new(0, 10, 1, -375) -- 设置按钮2位置在按钮1下面
 button2.Text = "MSHUB V5"
+button2.Font = Enum.Font.Oswald
 button2.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
 button2.Parent = mainFrame
 
@@ -46,6 +48,7 @@ local button4 = Instance.new("TextButton")
 button4.Size = UDim2.new(0, 150, 0, 50)
 button4.Position = UDim2.new(0, 10, 1, -325) -- 设置按钮4位置在按钮2下面
 button4.Text = "FFJ1"
+button4.Font = Enum.Font.Oswald
 button4.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
 button4.Parent = mainFrame
 
@@ -61,6 +64,7 @@ local button5 = Instance.new("TextButton")
 button5.Size = UDim2.new(0, 150, 0, 50)
 button5.Position = UDim2.new(0, 10, 1, -275) -- 设置按钮5位置在按钮4下面
 button5.Text = "Trauma Hub V3"
+button5.Font = Enum.Font.Oswald
 button5.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
 button5.Parent = mainFrame
 
@@ -77,6 +81,7 @@ local button7 = Instance.new("TextButton")
 button7.Size = UDim2.new(0, 150, 0, 50)
 button7.Position = UDim2.new(0, 10, 1, -275) -- 设置按钮5位置在按钮4下面
 button7.Text = "NN"
+button7.Font = Enum.Font.Oswald
 button7.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
 button7.Parent = mainFrame
 
@@ -91,6 +96,7 @@ local button1b = Instance.new("TextButton")
 button1b.Size = UDim2.new(0, 150, 0, 50)
 button1b.Position = UDim2.new(0, 200, 0, 10)
 button1b.Text = "Floor2 candle"
+button1b.Font = Enum.Font.Oswald
 button1b.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
 button1b.Parent = mainFrame
 
@@ -106,6 +112,7 @@ local button6 = Instance.new("TextButton")
 button6.Size = UDim2.new(0, 150, 0, 50)
 button6.Position = UDim2.new(0, 200, 1, -375) -- 设置按钮4位置在按钮2下面
 button6.Text = "Floor2 Package"
+button6.Font = Enum.Font.Oswald
 button6.BackgroundColor3 = Color3.fromRGB(120, 150, 150)
 button6.Parent = mainFrame
 
@@ -136,6 +143,7 @@ local textLabel = Instance.new("TextLabel")
 textLabel.Size = UDim2.new(0, 200, 0, 50)
 textLabel.Position = UDim2.new(1, -250, 0, 20)
 textLabel.Text = "By Darkness Bilibili:Youbcp"
+textLabel.Font = Enum.Font.Oswald
 textLabel.TextColor3 = Color3.fromRGB(255, 135, 150)
 textLabel.BackgroundTransparency = 1
 textLabel.Parent = mainFrame
@@ -144,6 +152,7 @@ local button3 = Instance.new("TextButton")
 button3.Size = UDim2.new(0, 150, 0, 50)
 button3.Position = UDim2.new(0, 10, 1, -60)
 button3.Text = "Script mode"
+button3.Font = Enum.Font.Oswald
 button3.BackgroundColor3 = Color3.fromRGB(135, 15, 120)
 button3.Parent = mainFrame
 
